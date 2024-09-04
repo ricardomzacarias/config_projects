@@ -1,0 +1,7 @@
+Threshold = 85
+DisplayMonitorSources = false
+EnableUpdates = true
+FilterInput = true
+FilterOutput = false
+LastUsedInput = "alsa_input.usb-Generalplus_Trust_Microphone-00.mono-fallback"
+LastUsedOutput = ""

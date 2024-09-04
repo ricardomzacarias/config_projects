@@ -1,0 +1,25 @@
+[global_config]
+  ask_before_closing = never
+[keybindings]
+  group_all = ""
+  group_tab = ""
+  layout_launcher = ""
+[profiles]
+  [[default]]
+    background_darkness = 0.92
+    background_type = transparent
+    font = Hack Nerd Font Propo 18
+    show_titlebar = False
+    scrollbar_position = hidden
+    scroll_on_keystroke = False
+    scrollback_infinite = True
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]

@@ -1,0 +1,33 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# systemd generates mount units based on this file, see systemd.mount(5).
+# Please run 'systemctl daemon-reload' after making changes here.
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/nvme0n1p3 during installation
+UUID=bcc51098-259d-4108-bd42-ea08c8884b4c /               ext4    errors=remount-ro 0       1
+# /boot/efi was on /dev/nvme0n1p1 during installation
+UUID=C5AC-4A6C  /boot/efi       vfat    umask=0077      0       1
+
+UUID=1170029a-dc08-4137-a8d3-7b1c0b96a3cd /home/ricardolmz/particion_respaldo/ ext4 defaults 0 0
+
+# disco duro de 1tb 
+UUID=01D9B58D6CA1A790 /media/dudu/1tb_Backup auto user,errors=remount-ro,auto,exec,rw,nofail 0 0
+
+#disco duro de 2tb # no fail ayuda a nuestro sistema a operar sin el disco 
+UUID=4521708906FBCAD6 /media/dudu/2tb_Backup auto user,errors=remount-ro,auto,exec,rw,nofail 0 0
+
+UUID=918c7deb-6dc9-4a9b-beb2-cc17cd7898d9 swap           swap    defaults,noatime,nodiratime,discard 0 0
+
+UUID=5fdc6c45-3442-4bba-a521-6462228a1c85 none            swap    sw              0       0
+# montar particion de respaldo
+UUID=F5DD-D6C3 /media/dudu/particion_respaldo auto defaults,rw,user,auto,umask=000 0 0 
+
+# dispositivo de red para conectar con el disco de 2tb
+//192.168.1.133/samba_share /media/network_share cifs username=rlmz93,password=213840950,uid=1000,gid=1000,iocharset=utf8,file_mode=0777,dir_mode=0777 0 0
+
+

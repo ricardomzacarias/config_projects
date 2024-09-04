@@ -1,0 +1,143 @@
+[
+{
+	"border": "normal",
+		"floating": "auto_off",
+		"fullscreen_mode": 0,
+		"layout": "splith",
+		"marks": [],
+		"percent": 0.25,
+		"type": "con",
+		"nodes": [
+		{
+			"border": "normal",
+			"floating": "auto_off",
+			"layout": "splitv",
+			"marks": [],
+			"percent": 0.5,
+			"type": "con",
+			"nodes": [
+			{
+				"border": "normal",
+				"floating": "auto_off",
+				"layout": "splith",
+				"marks": [],
+				"percent": 0.5,
+				"type": "con",
+				"nodes": [
+				{
+					"border": "pixel",
+					"current_border_width": 3,
+					"floating": "auto_off",
+					"geometry": {
+						"height": 698,
+						"width": 1122,
+						"x": 0,
+						"y": 0
+					},
+					"marks": [],
+					"name": "rlmz93@archlinux:~",
+					"percent": null,
+					"swallows": [
+					{
+						"instance": "^.+$"
+					}
+					],
+					"type": "con"
+				}
+				]
+			},
+			{
+				"border": "normal",
+				"floating": "auto_off",
+				"layout": "splith",
+				"marks": [],
+				"percent": 0.5,
+				"type": "con",
+				"nodes": [
+				{
+					"border": "pixel",
+					"current_border_width": 3,
+					"floating": "auto_off",
+					"geometry": {
+						"height": 698,
+						"width": 1122,
+						"x": 0,
+						"y": 0
+					},
+					"marks": [],
+					"name": "rlmz93@archlinux:~",
+					"percent": null,
+					"swallows": [
+					{
+						"instance": "^.+$"
+					}
+					],
+					"type": "con"
+				}
+				]
+			}
+			]
+		},
+		{
+			"border": "normal",
+			"floating": "auto_off",
+			"layout": "splitv",
+			"marks": [],
+			"percent": 0.5,
+			"type": "con",
+			"nodes": [
+			{
+				"border": "pixel",
+				"current_border_width": 3,
+				"floating": "auto_off",
+				"geometry": {
+					"height": 698,
+					"width": 1122,
+					"x": 0,
+					"y": 0
+				},
+				"marks": [],
+				"name": "rlmz93@archlinux:~",
+				"percent": 0.5,
+				"swallows": [
+				{
+					"instance": "^.+$"
+				}
+				],
+				"type": "con"
+			},
+			{
+				"border": "normal",
+				"floating": "auto_off",
+				"layout": "splith",
+				"marks": [],
+				"percent": 0.5,
+				"type": "con",
+				"nodes": [
+				{
+					"border": "pixel",
+					"current_border_width": 3,
+					"floating": "auto_off",
+					"geometry": {
+						"height": 698,
+						"width": 1122,
+						"x": 0,
+						"y": 0
+					},
+					"marks": [],
+					"name": "rlmz93@archlinux:~",
+					"percent": null,
+					"swallows": [
+					{
+						"instance": "^.+$"
+					}
+					],
+					"type": "con"
+				}
+				]
+			}
+			]
+		}
+		]
+}
+]

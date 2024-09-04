@@ -1,0 +1,53 @@
+[
+{
+	"border": "normal",
+		"floating": "auto_off",
+		"fullscreen_mode": 0,
+		"layout": "splith",
+		"marks": [],
+		"percent": null,
+		"type": "con",
+		"nodes": [
+		{
+			"border": "pixel",
+			"current_border_width": 3,
+			"floating": "auto_off",
+			"geometry": {
+				"height": 1011,
+				"width": 1234,
+				"x": 9,
+				"y": 69
+			},
+			"marks": [],
+			"name": "Documento sin título - Documentos de Google - Chromium",
+			"percent": 0.62,
+			"swallows": [
+			{
+				"instance": "^.+$"
+			}
+			],
+			"type": "con"
+		},
+		{
+			"border": "pixel",
+			"current_border_width": 3,
+			"floating": "auto_off",
+			"geometry": {
+				"height": 1011,
+				"width": 660,
+				"x": 1251,
+				"y": 69
+			},
+			"marks": [],
+			"name": "Documento sin título - Documentos de Google - Chromium",
+			"percent": 0.38,
+			"swallows": [
+			{
+				"instance": "^.+$"
+			}
+			],
+			"type": "con"
+		}
+		]
+}
+]
